@@ -1,0 +1,33 @@
+<html>
+<head>
+<title></title>
+</head>
+<body>
+<input type="radio" id="option1" name="choice">
+<label for="option1"></label>
+<input type="radio" id="option2" name="choice">
+<label for="option2"></label>
+<input type="radio" id="option3" name="choice">
+<label for="option3"></label>
+
+<style>
+input[type="radio"] {
+  display: none;
+}
+
+label {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #fff;
+  border: 2px solid #000;
+  margin-right: 10px;
+}
+
+input[type="radio"]:checked + label {
+  background: #000;
+}
+</style>
+</body>
+<html>
